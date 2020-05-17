@@ -1,4 +1,5 @@
 # Akan Names
+#### By **Abduljabbar Abdulghani **
 
 Akan names is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
 
@@ -19,6 +20,10 @@ javaScript Console
 ##### Installation
 
 - Open `index.html` on your Browser.
+
+##### Contact me
+
+you can reach me on abdijabarboxer2009@gmail.com
 
 
 ### License
