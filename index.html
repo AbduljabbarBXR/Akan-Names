@@ -16,45 +16,49 @@
 				<h1 class="akan-heading">Akan <span class="heading-name">Names</span></h1>
 				<hr>
 				<div class="akan-description">
-					<p class="fs12">A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
-					<p class="fs12">Here are some Ghanaian Names:</p>
+					<p class="fs12"> Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.
+
+					The trick is to take a user's birthday and calculate the day of the week they were born. Depending on their gender we get their Akan Name. </p>
+
+					<p class="fs12"><strong>Some Ghanaian Names:</strong> </p>
 					<div class="row ghanaian-names">
 						<div class="col-md-6">
-							<h4><i class="fa fa-female"></i>&nbsp;&nbsp;Female</h4>
+							<h4><i class="fa fa-female"></i>&nbsp;&nbsp;For the Females</h4>
 							<ul class="fs11">
-								<li>Sunday: Akosua</li>
-								<li>Monday: Adwoa</li>
-								<li>Tuesday: Abenaa</li>
-								<li>Wednesday: Akua</li>
-								<li>Thursday:  Yaa</li>
-								<li>Friday: Afua</li>
-								<li>Saturday: Ama</li>
+								<li>Sunday - Akosua</li>
+								<li>Monday - Adwoa</li>
+								<li>Tuesday - Abenaa</li>
+								<li>Wednesday - Akua</li>
+								<li>Thursday -  Yaa</li>
+								<li>Friday - Afua</li>
+								<li>Saturday - Ama</li>
 							</ul>
 						</div>
 						<div class="col-md-6">
-							<h4><i class="fa fa-male"></i>&nbsp;&nbsp; Male</h4>
+							<h4><i class="fa fa-male"></i>&nbsp;&nbsp;For the Males</h4>
 							<ul class="fs11">
-								<li>Sunday: Kwasi</li>
-								<li>Monday: Kwadwo</li>
-								<li>Tuesday: Kwabena</li>
-								<li>Wednesday: Kwaku</li>
-								<li>Thursday:  Yaw</li>
-								<li>Friday: Kofi</li>
-								<li>Saturday: Kwame</li>
+								<li>Sunday - Kwasi</li>
+								<li>Monday - Kwadwo</li>
+								<li>Tuesday - Kwabena</li>
+								<li>Wednesday - Kwaku</li>
+								<li>Thursday -  Yaw</li>
+								<li>Friday - Kofi</li>
+								<li>Saturday - Kwame</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4 mt30 akan-form">
-				<h5>Please Enter Your Birthdate Here:</h5>
+				<h5>Select Birth-date Below:</h5>
 				<div class="add-stylist-form">
 					<form>
 						<div class="form-group mb15">
 			              	<label class="label">Birthday</label>
 			               	<div class="input-group mb15">
 				                <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-				                <input type="text" placeholder="mm/dd/yyyy" id="myBirthDate" class="form-control" autocomplete="off">
+								
+								<input placeholder="Date" class="textbox-n" type="text" onfocus="(this.type='date')" id="myBirthdate">
 				             </div>
 			            </div>   
 
