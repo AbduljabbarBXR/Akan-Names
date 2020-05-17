@@ -5,11 +5,12 @@ Akan names is a web application that takes a user's birthday and calculates the 
 Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names. 
 
 
-## Technologies Used
+## Programming Languages Used
 
-- HTML & CSS (Bootstrap)
-- JavaScript (jQuery 3.4.1)
-- Animate CSS
+- HTML
+- JavaScript
+- Bootstrap
+- CSS
 
 ##### Requirements
 
